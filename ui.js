@@ -11,9 +11,9 @@ class UI{
                         <a href="${user.html_url}" target="_blank" class="btn btn-dark text-center text-white mb-2 btn-block">View Profile</a>
                     </div>
                     <div class="col-md-9">
-                        <span class="badge badge-danger">Public Respo: ${user.public_repos}</span>
-                        <span class="badge badge-dark">Followers: ${user.followers}</span>
-                        <span class="badge badge-danger">Following: ${user.following}</span>
+                        <span class="badge badge-danger m-2">Public Respo: ${user.public_repos}</span>
+                        <span class="badge badge-dark m-2">Followers: ${user.followers}</span>
+                        <span class="badge badge-danger m-2">Following: ${user.following}</span>
                         <br><br>
                         <ul class="list-group">
                             <li class="list-group-item">Name: ${user.name}</li>
